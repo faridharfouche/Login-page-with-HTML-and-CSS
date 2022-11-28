@@ -1,0 +1,113 @@
+.main{
+   
+    display :grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 500px ;
+    margin :40px;
+    box-shadow:20px 20px 90px peru;
+}
+.pic {
+    position :relative ;
+    background-image:url("/images/background.jpg");
+    background-size:cover;
+    background-color:#cccccc ;
+}
+
+.pic > h1 {
+    color : white;
+    text-align:center;
+    margin-top : 70px; ;
+}
+.pic > p {
+    color:white ;
+    text-align:center ;
+    font-size: 18px;
+}
+.book{
+    color:peru;
+    background-color:white ;
+    padding:2px;
+}
+.peru-text{
+    color:peru;
+}
+.login{
+    background-color: white;
+}
+.login > h2 {
+    color : peru ;
+    text-align: center ;
+}
+.login > button {
+    height: 50px;
+    width: 45%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin :auto;
+    margin-top:30px;
+    font-size:18px ;
+    background-color :white ;
+    color :#66757a;
+    box-shadow: 1px 1px 4px #cccccc;
+    border:0px;
+    border-radius: 7px;
+      
+}
+.login > button > img {
+    width :30px;
+    margin-right:7px;
+}
+.login > h5 {
+    text-align:center;
+    color:#cccccc ;
+    font-size:18px;
+    margin-top:10px;
+}
+
+.info{
+    display :grid;
+    grid-template-columns:40% 40% ;
+    gap:15px ;
+    justify-content:space-around;
+}
+input {
+    height:35px;
+    background-color:#f0f0f0;
+    border: 0px;
+    padding-left:15px;
+    
+}
+.register{
+    background-color: peru;
+    color: white;
+    border-radius:7px;
+    box-shadow:1px 1px 4px #cccccc;
+    font-size:16px;
+    margin-top:10px;
+    padding:none;
+}
+.login-btn{
+    background-color: #2439da;
+    color: white ;
+    border-radius:7px;
+    box-shadow:1px 1px 4px #cccccc;
+    font-size:16px;
+    margin-top:10px;
+    padding:none;
+}
+.check {
+    display :flex ;
+    color:#7e7e7e;
+    font-size:12px;
+    margin-top:10px;
+}
+.check > input {
+    display:block;
+    margin-top:-1px;
+    margin-right:7px;
+    height:15px;
+}
+.check > label > a {
+    text-decoration:none;
+}
